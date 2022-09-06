@@ -1,0 +1,145 @@
+.container {
+    background-color: #33cbcc;
+    border-radius: 22%;
+    height: 30rem;
+    margin: 0 auto;
+    width: 30rem;
+}
+
+.head {
+    background-color: #fff;
+    border-radius: 7rem 7rem 0 0;
+    height: 13rem;
+    left: 7.5rem;
+    position: relative;
+    top: 6.5rem;
+    width: 15rem;
+}
+
+.chest {
+    background-color: #009ed6;
+    height: 10.5rem;
+    left: 7.5rem;
+    position: relative;
+    top: 6.5rem;
+    width: 15rem;
+}
+
+.head::before,
+.head::after {
+    background-color: #fff;
+    border-radius: 4rem 4rem 0 0;
+    content: "";
+    height: 10rem;
+    position: absolute;
+    top: -2rem;
+    width: 4rem;
+}
+
+.head::after {
+    left: 11rem;
+}
+
+.face {
+    background-color: #fbc8ad;
+    border-radius: 50%;
+    height: 7.5rem;
+    left: 1.5rem;
+    position: relative;
+    top: 3rem;
+    width: 12rem;
+    z-index: 1;
+}
+
+.details,
+.details::before {
+    background-color: #000;
+    border-radius: 50%;
+    height: 1rem;
+    left: 2.6rem;
+    position: relative;
+    top: 3rem;
+    width: 1rem;
+}
+
+.details::before {
+    content: "";
+    left: 6rem;
+    position: absolute;
+    top: 0;
+}
+
+.details::after {
+    border-color: transparent transparent black transparent;
+    border-style: solid;
+    border-radius: 50%;
+    content: "";
+    height: 0.4rem;
+    left: 2.5rem;
+    position: absolute;
+    top: 0.6rem;
+    width: 1.9rem;
+}
+
+.sleeves,
+.sleeves::before {
+    background-color: #009ed6;
+    border-radius: 1.5rem 0 0 0;
+    height: 5rem;
+    left: -1.8rem;
+    position: absolute;
+    width: 1.8rem;
+}
+
+.sleeves::before {
+    content: "";
+    left: 16.7rem;
+    border-radius: 0 1.5rem 0 0;
+}
+
+.bagUp,
+.bagUp::before {
+    background-color: lightgreen;
+    height: 2.5rem;
+    left: 1.8rem;
+    position: absolute;
+    width: 2.1rem;
+}
+
+.bagUp::before {
+    content: "";
+    left: 12.7rem;
+}
+
+.bagDown,
+.bagDown::before {
+    background-color: green;
+    border-radius: 0 0 1.1rem 0;
+    left: 1.8rem;
+    height: 2.5rem;
+    top: 2.5rem;
+    position: absolute;
+    width: 2.1rem;
+}
+
+.bagDown::before {
+    border-radius: 0 0 0 1.1rem;
+    content: "";
+    left: 12.7rem;
+    top: 0rem;
+}
+
+.arms,
+.arms::before {
+    background-color: #fbc9ad;
+    height: 5.5rem;
+    position: absolute;
+    top: 5rem;
+    width: 1.8rem;
+}
+
+.arms::before {
+    content: "";
+    left: 16.7rem;
+    top: 0rem;
+}
